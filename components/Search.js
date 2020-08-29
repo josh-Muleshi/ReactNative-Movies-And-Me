@@ -1,5 +1,5 @@
-import React from 'react'
-import { View, Button, TextInput } from 'react-native'
+import React from 'react';
+import { View, Button, TextInput } from 'react-native';
 
 class Search extends React.Component {
     render() {
@@ -11,3 +11,5 @@ class Search extends React.Component {
         )
     }
 }
+
+export default Search
