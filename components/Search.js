@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Button, TextInput } from 'react-native';
+import { View, Button, TextInput, Text } from 'react-native';
 
 class Search extends React.Component {
     render() {
         return(
             <View>
+                <Text >Bienvenu</Text>
                 <TextInput placeholder="Titre du film" />
                 <Button onPress={() => {}} title="Rechercher" />
             </View>
