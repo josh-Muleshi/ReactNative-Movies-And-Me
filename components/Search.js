@@ -5,8 +5,9 @@ class Search extends React.Component {
     render() {
         return(
             <View style={{ flex: 1, backgroundColor: 'yellow' }}>
-                <View style={{ flex: 1, backgroundColor: 'red'}}></View>
-                <View style={{ flex: 1, backgroundColor: 'green'}}></View>
+                <View style={{ height: 50, width: 50, backgroundColor: 'red'}}></View>
+                <View style={{ height: 50, width: 50, backgroundColor: 'green'}}></View>
+                <View style={{ height: 50, width: 50, backgroundColor: 'blue'}}></View>
             </View>
         )
     }
