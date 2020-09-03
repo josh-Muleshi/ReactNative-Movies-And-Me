@@ -8,4 +8,6 @@ export default function App() {
   );
 }
 
+// la sauvegarde de la notion sur le props et le components
+
 
