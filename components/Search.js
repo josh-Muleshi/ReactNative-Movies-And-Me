@@ -23,9 +23,11 @@ class Search extends React.Component {
   }
 
   _loadFilms() {
-    getFilmsFromApiWithSearchedText(this.state.searchedText).then((data) =>
-      this.setState({ films: data.results })
-    );
+    if (this.state.searchedText.length > 0) {
+      getFilmsFromApiWithSearchedText(this.state.searchedText).then((data) =>
+        this.setState({ films: data.results })
+      );
+    }
   }
 
   _searchInputTextChanged(text) {
